@@ -1,0 +1,22 @@
+<div class="navbar navbar-expand-sm navbar-dark fixed-top">
+  <%= link_to cocktails_path, class: "navbar-brand" do %>
+    <i class="fas fa-glass-cheers"></i>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item" id="nav-link">
+          <%= link_to "Cocktail List", cocktails_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Add New", new_cocktail_path, class: "btn btn-outline-success" %>
+        </li>
+      </ul>
+    </div>
+</div>

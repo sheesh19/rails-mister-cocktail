@@ -1,12 +1,25 @@
-.navbar-lewagon {
+.navbar-dark {
   justify-content: space-between;
-  background: white;
+  background: #101010;
+  color: white;
+  &:hover {
+    color: #1EDD88;
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-dark .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-dark .navbar-brand img {
   width: 40px;
+  color: white;
+}
+
+.navbar-dark i:hover {
+  color: #1EDD88;
+}
+
+.nav-link:hover {
+  color: #1EDD88;
 }
