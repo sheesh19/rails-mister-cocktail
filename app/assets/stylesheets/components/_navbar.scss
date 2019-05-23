@@ -16,10 +16,19 @@
   color: white;
 }
 
+.navbar-dark > i {
+  margin: 0 8px 0 0;
+}
+
 .navbar-dark i:hover {
   color: #1EDD88;
 }
 
-.nav-link:hover {
+.nav-item > .nav-link:hover {
   color: #1EDD88;
 }
+
+.nav-item > .btn {
+  margin: 0 8px 0 8px;
+}
+

@@ -10,7 +10,12 @@
 }
 
 .banner-content {
-  width: 60%;
+  width: 95%;
+}
+
+.banner-row {
+  width: 90vw;
+  align-items: center;
 }
 
 .banner h1 {
@@ -19,7 +24,6 @@
   font-weight: 500;
   line-height: 70px;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
-  margin-left: 160px;
 }
 
 .banner p {
@@ -27,7 +31,6 @@
   font-weight: lighter;
   color: white;
   margin-bottom: 0px;
-  margin-right: 160px;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -35,3 +38,5 @@
   color: $blue;
   font-weight: bold;
 }
+
+
