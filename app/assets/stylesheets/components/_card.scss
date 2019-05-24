@@ -1,6 +1,6 @@
 .card {
   margin: 30px 30px;
-  background: white;
+  background-color: transparent;
   width: 350px;
   height: 350px;
   box-shadow:  0 1px 7px rgba(0,0,0,.05);
@@ -25,13 +25,10 @@ text-decoration: none;
 .card-content {
   padding: 10px;
   height: 10%;
-  background-color: transparent;
 }
 
 .card-name {
   font-weight: bold;
-  background-color: transparent;
-
   &:hover {
     text-decoration: none;
     color: #888888;

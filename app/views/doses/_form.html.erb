@@ -1,4 +1,4 @@
-<h2>Yum Yum ingredients for a delicious <%= @cocktail.name %></h2>
+<p>Add ingredients below:</p>
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description %>
   <%= f.association :ingredient %>

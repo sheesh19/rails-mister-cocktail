@@ -1,0 +1,25 @@
+#shows-cocktail-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 80px 64px;
+}
+
+.cocktail-image-upload {
+  height: 80vh;
+  border-radius: 4px;
+}
+
+.display-cocktail {
+  margin-right: 40px;
+  border: 1px solid #1EDD88;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.display-cocktail {
+  margin-right: 40px;
+}
+
+.display-name {
+  margin-bottom: 16px
+}
