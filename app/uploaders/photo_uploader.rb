@@ -1,6 +1,6 @@
 class PhotoUploader < CarrierWave::Uploader::Base
   include Cloudinary::CarrierWave
-  process eager: true
+  # process eager: true
 
-  process convert: 'jpg'
+  # process convert: 'jpg'
 end
